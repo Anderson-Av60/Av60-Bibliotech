@@ -1,1 +1,123 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f7f8fc;
+}
+
+/* Dark Mode Tconfig */
+
+body.dark-theme .big-gear{
+    background-color: #121212;
+}
+
+body.dark-theme {
+    background-color: #121212;
+    transition: background-color 0.3s;
+}
+
+body.dark-theme .settings-card,body.dark-theme .sidebar {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+body.dark-theme .settings-title,
+body.dark-theme .config-text,
+body.dark-theme .menu-item {
+    color: #ffffff;
+}
+
+body.dark-theme .config-info .material-symbols-outlined,
+body.dark-theme .menu-item .material-symbols-outlined{
+    color: #00bfff;
+}
+
+/* Dark Mode TCategorias */
+body.dark-theme .category-card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+body.dark-theme .category-title {
+    color: #ffffff;
+}
+
+body.dark-theme .category-card .divisor {
+    border-top: 1px solid #333;
+}
+
+/* Dark Mode TMeus-Livros */
+body.dark-theme .livros-section h3 {
+    color: #ffffff;
+}
+
+body.dark-theme .livro-card {
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-theme .livro-info h4 {
+    color: #ffffff;
+}
+
+body.dark-theme .livro-info p {
+    color: #aaaaaa;
+}
+
+/* Dark Mode TMeus-Livros Cont  */
+
+body.dark-theme .modal-card { background-color: #1e1e1e; }
+body.dark-theme .modal-info-detalhe h2,
+body.dark-theme .modal-dados p,
+body.dark-theme .status-container,
+body.dark-theme .btn-fechar { color: #ffffff; }
+body.dark-theme .modal-autor { color: #aaaaaa; }
+
+/* Dark Mode: TDesafio */
+
+body.dark-theme .titulo-sessao h2 { color: #ffffff; }
+body.dark-theme .cartao-desafio-vazio { background-color: #1e1e1e; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); }
+body.dark-theme .icone-medalha { color: #00bfff; }
+
+
+/* Dark Mode: ... */
+
+/* curso do mouse com o propi css */
+
+/* body {
+    cursor:
+} */
+
+/* a, button, select, label, .livro-card {
+    cursor: pointer;
+} */
+
+/* Depois tem que adicionar a classe class="carregando" nas "div" */
+/* .carregando {
+    cursor: progress; 
+} */
+
+/* curso img */
+html,body {
+    min-height: 100vh;
+    margin: 0;
+    cursor: url('/img/default.png'), auto;
+}
+
+a, button, select, input, label, .slider, .livro-card, .menu-item, .action-item, .material-symbols-outlined {
+    cursor: url('/img/clicker.png'), pointer !important;
+}
+
+.livro-card, .livro-card *, .book-card, .book-card * {
+    cursor: url('/img/clicker.png'), pointer !important;
+}
+
+
+
+

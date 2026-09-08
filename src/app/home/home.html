@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiblioTech</title>
+    
+    <!-- Ícones do Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="img/logo.png" alt="Logo BiblioTech" class="logo">
+        </div>
+
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="Pesquisar Livros">
+            <label for="searchInput">
+                <span class="material-symbols-outlined">search</span>
+            </label>
+        </div>
+
+        <div class="header-actions">
+            <a href="#" class="action-item">
+                <span class="material-symbols-outlined">favorite</span>
+                <span>Favoritos</span>
+            </a>
+            <a href="#" class="action-item">
+                <span class="material-symbols-outlined">notifications</span>
+                <span>Notificação</span>
+            </a>
+            <a href="#" class="action-item account-icon">
+                <span class="material-symbols-outlined">account_circle</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- ESTRUTURA PRINCIPAL -->
+    <div class="main-container">
+        
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <nav class="sidebar-menu">
+                <a href="#" class="menu-item active">
+                    <span class="material-symbols-outlined">home</span>
+                    <span>Início</span>
+                </a>
+                <a href="#" class="menu-item">
+                    <span class="material-symbols-outlined">grid_view</span>
+                    <span>Categorias</span>
+                </a>
+                <a href="#" class="menu-item">
+                    <span class="material-symbols-outlined">book_2</span>
+                    <span>Meus Livros</span>
+                </a>
+                <a href="#" class="menu-item">
+                    <span class="material-symbols-outlined">person</span>
+                    <span>Perfil</span>
+                </a>
+                <a href="#" class="menu-item">
+                    <span class="material-symbols-outlined">workspace_premium</span>
+                    <span>Desafios</span>
+                </a>
+                <a href="#" class="menu-item">
+                    <span class="material-symbols-outlined">settings</span>
+                    <span>Configurações</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- CONTEÚDO PRINCIPAL -->
+        <main class="content">
+            
+            <!-- SEÇÃO CONTINUE LENDO -->
+            <section class="continue-section">
+                <h2>Continue Lendo</h2>
+                
+                <div class="continue-card">
+                    <img src="img/ia.jpg" alt="Inteligência Artificial" class="continue-cover">
+                    
+                    <div class="continue-info">
+                        <div class="continue-header">
+                            <h3>Inteligência Artificial</h3>
+                            <span class="material-symbols-outlined more-icon">more_vert</span>
+                        </div>
+                        <p class="author">Kai-Fu LEE</p>
+                        
+                        <div class="progress-container">
+                            <span class="progress-label">Progresso</span>
+                            <div class="progress-bar-wrapper">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 67%;"></div>
+                                </div>
+                                <span class="progress-percent">67%</span>
+                            </div>
+                        </div>
+
+                        <!-- BOTÃO DE CONTINUAR LENDO COM LINK -->
+                        <a href="https://online.fliphtml5.com/qkuxy/scle/#p=1" target="_blank" class="btn-continue">
+                            <span class="material-symbols-outlined">menu_book</span>
+                            <span>Continuar Lendo</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEÇÃO LIVROS EM DESTAQUES -->
+            <section class="highlights-section">
+                <h2>Livros em Destaques</h2>
+                
+                <div class="books-grid">
+                    <div class="book-card">
+                        <img src="img/algoritmos.jpg" alt="Entendendo Algoritmos">
+                        <h4>Entendendo algoritmos</h4>
+                        <p>Aditya Y. Bhargava</p>
+                    </div>
+
+                    <div class="book-card">
+                        <img src="img/devops.jpg" alt="Manual de DevOps">
+                        <h4>Manual de DevOps</h4>
+                        <p>John Allspaw</p>
+                    </div>
+
+                    <div class="book-card">
+                        <img src="img/angular.jpg" alt="Angular 17 do Zero">
+                        <h4>Angular 17 do Zero</h4>
+                        <p>Daniel Schmitz</p>
+                    </div>
+
+                    <div class="book-card">
+                        <img src="img/ti.jpg" alt="TI - Tec. Da Informação">
+                        <h4>TI - Tec. Da Informação</h4>
+                        <p>Aditya Y. Bhargava</p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
